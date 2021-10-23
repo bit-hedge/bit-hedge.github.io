@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- bootstrap css!-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+		<!-- bootstrap js!-->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		
+		<title> bithedge </title>
+		<script src="script.js"></script>
+		<link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" href="favicon.ico">
+	</head>
+	
+	<body>
+		<div class="container" id="container">
+			<h1> bithedge </h1>
+			<p class="excerpt">“If you disagree, I can only shrug my shoulders. It's what I have.”</p>
+			<div class="row justify-content-center">
+				<div class="col-2 border border-white">
+					<p class="sideheader"> Posts </p>
+					<div id="accordion">
+						<div class="card">
+							<a class="folder" data-toggle="collapse" href="#collapseOne" onclick="flipArrow(this)">
+								v 10/1 - 10/31
+							</a>
+							<div id="collapseOne" class="collapse hide show">
+								<a class="infolder" href="#bitcoin-new-edtf"> Bitcoin's New Exchange (Day)Traded Fund </a>
+							</div>
+						</div>
+					</div>		
+						
+						
+					<p class="sideheader"> About </p>
+					<p> The aim of this blog is to provide a place for thoughts and information of mine better presented in long-form than on Twitter,
+					where I have enjoyed some moderate success. 
+					</p>
+				</div>
+				<div class="col-8 border border-white">
+					<p class="title"> Bitcoin's New Exchange (Day)Traded Fund </p>
+					<p class="subtitle"> October 17th, 6:43pm nyc time, 2021. </p>
+					<hr>
+					<p class="text">
+					While nobody has missed the discussion surrounding a possible Bitcoin ETF this year and the subsequent 40% rally this month as prospects materialized, discussion in some circles has already turned to doubt in the success of what has now become the first approved crypto ETF by the SEC - one investing in Bitcoin futures. 
+					</p>
+					<img src="oct.png" class="boarded"/>
+					<p class="text"><br>
+					Following SEC Chair Gensler’s <a href="https://www.cnbc.com/2021/08/03/what-the-sec-chairs-comments-on-crypto-mean-for-a-possible-bitcoin-etf.html" target="_blank"> apparent nod towards a Bitcoin ETF operating within the bounds of CME traded futures</a>, giants such as ProShares, VanEck, <a href="https://www.reuters.com/technology/cathie-woods-ark-invest-throws-weight-behind-new-bitcoin-futures-etf-2021-10-14/" target="_blank">and now Cathie Wood</a> quickly threw their hats into the ring for a chance at getting approval for such a product. This week, speculation hit a fever pitch as CME Bitcoin futures saw their largest jump in open interest since last year and Bitcoin options stretched to all time high volumes, culminating finally in the confirmation of approval for ProShares’ filing as the following Bloomberg headlines hit on Friday afternoon: 
+					<ul>
+						<li> *PROSHARES BITCOIN FUTURES ETF LAUNCH REVEALED IN SEC FILING </li>
+						<li> *PROSHARES SIGNALS BITCOIN FUTURES ETF LAUNCH AS SOON AS MONDAY </li>
+					</ul>
+					</p>
+					<img src="options.png"/>
+					<p class="text">
+					So with with the ETF going live <i>right now</i>, questions are flying as to whether it will measure up to current vehicles such as the Grayscale Bitcoin Fund which is pushing <i>$40B</i> in assets under management, and if inflows into futures contracts will have as much of an impact as they’d have going into spot. <br><br>
+					The good news is that there certainly is a mechanism for futures inflows to lift the price of Bitcoin. Via the popular ‘basis trade’ allowing directionally neutral firms to net double digit APY in a yield starved world by buying spot Bitcoin and selling CME futures against it, a renewed premium on Bitcoin CME futures would serve to attract more traders towards this strategy and hence more spot Bitcoin would be bought. There is no doubt that such a relationship between futures buys and spot buys would be less than 1:1, but nonetheless the effect does exist.
+					</p>
+					<img src="basis.png" class="boarded"/><br>
+					<p class="text">
+					The bad news is that the efficiency of a futures-based ETF in an asset which typically trades in brutal contango (forward prices higher than spot) needs to be questioned. <a href="https://www.sec.gov/Archives/edgar/data/1174610/000168386321004445/f9424d1.htm" target="_blank"> Per ProShares’ prospectus, </a>
+					</p>
+					<p class="excerpt">
+					‘The Fund generally seeks to invest in “front month” CME Bitcoin futures contracts. “Front month” contracts are the monthly contracts with the nearest expiration date. CME Bitcoin Futures are cash settled on their expiration date unless they are “rolled” prior to expiration. The Fund intends to “roll” its CME Bitcoin Futures prior to expiration. Typically, the Fund will roll to the next “nearby” CME Bitcoin Futures. The “nearby” contracts are those contracts with the next closest expiration date.’
+					</p>
+					<p class="text">
+					And while many have expressed concerns, no one has offered a quantification of the problem until now. Simulated by mirroring the fund’s 0.95% management fee, and by holding the front month CME Bitcoin futures contract until rolling to the next on the Monday prior to expiration, the hypothetical performance of such a product (shown since roughly the launch of CME Bitcoin futures, which <a href="https://www.coindesk.com/markets/2019/10/22/trump-administration-popped-2017-bitcoin-bubble-ex-cftc-chair-says/" target="_blank">coincidentally?</a> debuted at the top of the 2017/18 mania) would look like this:
+					</p>
+					<img src="3yr.png"/><br>
+					<p class="text">
+					An investment in such a product at the start of 2018 would have lost <i> almost a quarter of its value against Bitcoin since. </i>
+					</p>
+					<img src="3yr-compare.png"/>
+					<p style="text">
+					Looking at this underperformance, it becomes apparent that in the long run a futures based ETF in a contango-heavy product has <b>an expected value of zero</b>. So if Bitcoin fails to continue posting staggering returns, the chart of this ETF will eventually look like that of many other futures-based ETFS: down and to the right.
+					</p>
+					<img src="uso.png" class="boarded"/>
+					<p class="excerpt">United States Oil Fund vs. front month crude oil contract</p>
+					<p class="text">
+					Which makes it painstakingly obvious that the approved ETF is <b>not</b> suitable for long term investment, and serves only as yet another way for day traders to partake in the exact ‘highly speculative’ activity that Gary Gensler regularly criticizes. And since <a href="https://www.youtube.com/watch?v=EH6vE97qIP4&t=1548s" target="_blank">‘uber-wealthy’</a> Gensler, ex-Goldman Sachs, (how else would he have gotten his current position) knows all too well how this contango effect plays out, one has to wonder what exactly his angle is in approving such a product.
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

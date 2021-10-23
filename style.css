@@ -1,0 +1,135 @@
+
+h1 {
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.excerpt {
+	font-size: 0.8rem;
+	text-align: center;
+	font-style: italic;
+}
+
+.readmore {
+	font-size: 0.8rem;
+	margin-top: 1rem;
+	display: inline-block;
+	margin-bottom: 1rem;
+	font-style: italic;
+}
+
+body {
+	background-color: #f5cce8;
+	background-image: linear-gradient(to bottom right, #cce6ff, #ebd8c7);
+	font-family: Cambria;
+}
+
+.title {
+	font-size: 1.75rem;
+	line-height: 1.75rem;
+	padding-top: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+p {
+	line-height: 1rem;
+}
+
+.subtitle {
+	font-size: 0.8rem;
+	line-height: 0.8rem;
+	font-style: italic;
+}
+
+.text {
+	line-height: 1.2rem;
+}
+
+.sideheader {
+	font-size: 1.1rem;
+	line-height: 1.1rem;
+	font-weight: bold;
+	margin-bottom: 0px;
+	margin-top: 0.25rem;
+}
+
+.container {
+	margin-top: 1rem;
+	margin-bottom: 5rem;
+}
+
+.col-2 { 
+	background-color: #d9d9d9;
+	height: 100%;
+	margin-right: 1rem;
+}
+
+.col-8 {
+	background-color: #d9d9d9;
+}
+
+.card {
+	border: 0px;
+}
+
+.folder {
+	color: black;
+	font-size: 1rem;
+	border: 0px;
+	text-decoration: none;
+}
+
+.folder:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.folder::before {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 1px;
+	bottom: 0;
+	left: 0;
+	background-color: black;
+	transform: scaleX(0);
+	transform-origin: top left;
+	transition: transform 0.2s ease;
+}
+
+.folder:hover::before {
+	transform: scaleX(1);
+}
+
+.card {
+	background-color: #d9d9d9;
+}
+
+.infolder {
+	display: inline-block;
+	font-size: 0.8rem;
+	padding-left: 0.5rem;
+	padding-bottom: 0.25rem;
+	color: black;
+}
+
+img {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+.boarded {
+	border: 1px solid black;
+	max-width: 90%;
+}
+
+ul {
+	padding-left: 5rem;
+}
+
+a {
+	text-decoration: underline;
+	color: #0066ff;
+}
