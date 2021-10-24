@@ -5,7 +5,7 @@ h1 {
 }
 
 .excerpt {
-	font-size: 8rem;
+	font-size: 0.8rem;
 	text-align: center;
 	font-style: italic;
 }
@@ -27,7 +27,7 @@ body {
 .title {
 	font-size: 1.75rem;
 	line-height: 1.75rem;
-	padding-top: 1rem;
+	padding-top: 10rem;
 	margin-bottom: 0.5rem;
 }
 
