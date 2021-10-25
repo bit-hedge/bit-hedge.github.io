@@ -1,0 +1,98 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- bootstrap css!-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+		<!-- bootstrap js!-->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		
+		<title> bithedge </title>
+		<script src="script.js"></script>
+		<link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" href="favicon.ico">
+	</head>
+	
+	<body>
+		<div class="container" id="container">
+			<a class="heading" href="https://bit-hedge.github.io"> bithedge </a>
+			<p class="excerpt">“heard it here first.”</p>
+			<div class="row justify-content-center">
+			
+				<div class="col-2 border border-white d-none d-lg-block">
+					<p class="sideheader"> Posts </p>
+					<div id="accordion">
+						<div class="card">
+							<a class="folder" data-toggle="collapse" href="#collapseOne" onclick="flipArrow(this)">
+								v 10/1 - 10/31
+							</a>
+
+							<div id="collapseOne" class="collapse hide show">
+								<a class="infolder" href="file:///C:/Users/leafc/Desktop/crypto/bitcoins-new-fund.html" target="_blank"> Crypto Market ‘Dollarization’: A New Secular Tailwind </a>
+								<a class="infolder" href="file:///C:/Users/leafc/Desktop/crypto/bitcoins-new-fund.html" target="_blank"> Bitcoin's New Exchange (Day)Traded Fund </a>
+							</div>
+						</div>
+					</div>		
+							
+					<p class="sideheader"> About </p>
+					<p> The aim of this blog is to provide a place for thoughts and information of mine better presented in long-form than on Twitter,
+					where I have enjoyed some moderate success. </p>
+				</div>
+				
+				<div class="col-lg border border-white">
+					<a class="title" href="https://bit-hedge.github.io/bitcoins-new-fund" target="_blank"> Crypto Market ‘Dollarization’: A New Secular Tailwind </a> 
+					<p class="subtitle"> October 23rd, 4:55pm nyc time, 2021. </p>
+					<hr>
+					<p class="text">
+					As the political discussion around stablecoins continues to rage on, one could be forgiven for not knowing how it’s played out in actual crypto markets which this month for the first time saw open interest in stablecoin-margined Bitcoin futures surpass that of their crypto-margined counterparts.
+					</p>
+					<img src="img/stables.png" class="boarded"/>
+					<p class="excerpt"> percent of bitcoin futures open interest with crypto as margin <br> glassnode.com</p>
+					<p class="text">
+					Before stablecoins mimicked Bitcoin’s rocket to $60,000+ with their own stunning rise to over $100 <i>billion</i> in circulation, Bitcoin, as the most liquid and stable instrument on exchanges, was the monolithic ‘reserve asset’ of crypto trading. To avoid the restrictive on/off ramps and requirements of dealing in ‘real’ money, many participants chose to trade the ETH/BTC pair rather than the ETH/USD pair, and top up their margin balance with Bitcoin rather than dollars. 
+					<br><br>
+					The result was (and is) an inherently convex ecosystem. Consider that when a trader buys a Bitcoin future both denominated <i>and</i> settled in the underlying cryptocurrency, the result is the below, where the red line is the linear payout function found in traditional futures contracts and the blue line is the <i>nonlinear</i> payout function found in underlying-margined contracts.
+					</p>
+					<img src="img/long.png" class="boarded"/>
+					<p class="excerpt"> blog.bitmex.com </p>
+					<p class="text">
+					And for short trades: 
+					</p>
+					<img src="img/short.png" class="boarded"/>
+					<p class="excerpt"> blog.bitmex.com </p>
+					<p class="text">
+					Many readers will immediately notice something. While the unique ‘twists’ in the payoff of going long a crypto-margined crypto future <b>blunt profits and increase losses</b>, for a short in these contracts they <b>increase profits and blunt losses</b>. The playing field is intrinsically tilted in favor of the latter. <i>Stablecoin-margined futures normalize this</i>.
+					<br><br>
+					<b>While this is interesting in itself the difference does not realize its full significance until liquidations are considered, at which point it becomes very significant as the largest moves behind crypto assets are often almost entirely mechanical.</b> Consider two traders with positions leveraged long Bitcoin futures. One posts USDT as margin and one posts BTC as margin. In order to avoid liquidation, each trader needs to maintain a certain margin balance at all times. 
+					<br><br>
+					See where this is going? In the event that Bitcoin moves lower, not only will the trader who posted it as margin see the P/L on their trade turn negative but <i>the value of their margin will be dropping as well</i>. In practice the effect is this: 
+					</p><br>
+					<img src="img/table.png" class="boarded" style="border: 0px"/>
+					<p class="excerpt">
+					varying liquidation levels for crypto-margined and stablecoin-margined long positions<br> binance.com
+					</p>
+					<p class="text">
+					And while exact procedures vary across exchanges, none of them are enough to make even a dent in the fact that <b>longs in underlying-margined futures are far more vulnerable to liquidation than longs in traditional futures</b>. And when that is combined with the fact that shorts in underlying-margined futures are far <i>less</i> vulnerable to liquidation than shorts in traditional futures positions, it creates an environment naturally favoring downside. (Of course, none of this has caused anything but temporary, although violent, setbacks for the high-flying currency.)					
+					</p>
+					<img src="img/table2.png" class="boarded" style="border: 0px"/>
+					<p class="excerpt">
+					varying liquidation levels for crypto-margined and stablecoin-margined short positions<br> binance.com
+					</p>
+					<p class="text">
+					So in a market where futures liquidations can reach <a href="https://twitter.com/glxyresearch/status/1435604227674476544?s=20" target="_blank">up to 90% of spot volume</a> and stretch into the billions regularly, an upper hand to the short side adds up to a <i>massive</i> structural headwind for the ever-leveraged crowd of bullish crypto traders. Perhaps this is part of the reason why nearly <i>all</i> major deleveraging events in Bitcoin this year have been dominated by long liquidations, making the continued removal of this skew a resoundingly bullish development for the space.
+					</p>
+					<img src="img/diff.png" class="boarded"/>
+					<p class="excerpt"> glassnode.com </p>
+					<p style="text">
+					And following Bitcoin’s extreme dive in May the rate of the decoupling has gone nothing shy of vertical. So for a preview of what may be increasingly common in a more <i>even</i> market that shows no signs of stopping this current transition and in fact only speeding it up, look no further than July 26th, when an unprecedented build up of cash-margined shorts saw their first real wipe out in what was the biggest short-squeeze in crypto history.
+					</p>
+					<img src="img/rip.jpg" class="boarded"/><br>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
