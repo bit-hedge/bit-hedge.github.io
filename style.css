@@ -102,6 +102,10 @@ p {
 	text-decoration: none;
 }
 
+.sidebar:hover {
+	color: black;
+}
+
 .folder:hover {
 	color: black;
 	text-decoration: none;
