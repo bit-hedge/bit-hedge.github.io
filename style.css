@@ -99,6 +99,7 @@ p {
 	color: black;
 	font-size: 1rem;
 	border: 0px;
+	text-decoration: underline;
 }
 
 .sidebar:hover {
