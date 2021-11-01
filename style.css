@@ -161,19 +161,29 @@ a {
 	color: #0066ff;
 }
 
-.commento-markdown-button, .commento-anonymous-checkbox-container, .commento-logo-container {
+.commento-markdown-button, .commento-anonymous-checkbox-container, .commento-logo-container, .commento-score,
+ .commento-option-upvote, .commento-option-downvote, .commento-avatar {
 	visibility: hidden;
 }
 
-.commento-submit-button: {
+#commento-sort-policy-score-desc {
+	visibility: hidden;
+}
+
+.commento-submit-button {
 	background-color: #ffffff;
+	float: left;
 }
 
 .commento-textarea-container {
 	height: 5rem;
-	align-items: left;
+	text-align: left;
 }
 
-.commento-sort-policy-buttons {
-	float: left;
+.commento-button-margin {
+	height: 5rem;
+}
+
+.commento-option-reply {
+	color: black;
 }
