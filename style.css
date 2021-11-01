@@ -162,7 +162,7 @@ a {
 }
 
 .commento-markdown-button, .commento-anonymous-checkbox-container, .commento-logo-container, .commento-score,
- .commento-option-upvote, .commento-option-downvote, .commento-avatar {
+ .commento-option-upvote, .commento-option-downvote, .commento-avatar, .commento-footer, {
 	visibility: hidden;
 }
 
@@ -171,19 +171,18 @@ a {
 }
 
 .commento-submit-button {
-	background-color: #ffffff;
+	background: #ffffff;
 	float: left;
 }
 
-.commento-textarea-container {
-	height: 5rem;
-	text-align: left;
+.commento-subtitle {
+	margin-left: auto;
 }
 
 .commento-button-margin {
 	height: 5rem;
 }
 
-.commento-option-reply {
+.commento-option-button commento-option-reply {
 	color: black;
 }
