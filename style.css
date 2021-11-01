@@ -171,6 +171,7 @@ a {
 
 .commento-textarea-container {
 	height: 5rem;
+	align-items: left;
 }
 
 .commento-sort-policy-buttons {
