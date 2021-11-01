@@ -172,3 +172,7 @@ a {
 .commento-textarea-container {
 	height: 5rem;
 }
+
+.commento-sort-policy-buttons {
+	float: left;
+}
