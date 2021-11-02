@@ -161,28 +161,30 @@ a {
 	color: #0066ff;
 }
 
-.commento-markdown-button, .commento-anonymous-checkbox-container, .commento-logo-container, .commento-score,
- .commento-option-upvote, .commento-option-downvote, .commento-avatar, .commento-footer, {
-	visibility: hidden;
-}
-
-#commento-sort-policy-score-desc {
-	visibility: hidden;
-}
-
-.commento-submit-button {
+#commento-submit-button-root {
 	background: #ffffff;
-	float: left;
-}
-
-.commento-subtitle {
-	margin-left: auto;
+	color: black;
+	text-transform: none;
 }
 
 .commento-button-margin {
-	height: 5rem;
+	height: 10rem;
 }
 
-.commento-option-button commento-option-reply {
-	color: black;
+.commento-footer, .commento-anonymous-checkbox-container, .commento-markdown-button, .commento-sort-policy-buttons,
+.commento-comments, .commento-timeago:before, .commento-options {
+	display: none;
+}
+
+.commento-avatar, .commento-score {
+	display: none !important;
+}
+
+.commento-name, .commento-subtitle {
+	margin-left: 0px !important;
+}
+
+::-webkit-input-placeholder {
+  text-transform: lowercase;
+  font-size: 1rem !important;
 }
