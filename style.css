@@ -176,6 +176,10 @@ a {
 	display: none;
 }
 
+.commento-comments {
+	padding-bottom: 1.5rem;
+}
+
 .commento-avatar, .commento-score {
 	display: none !important;
 }
