@@ -171,8 +171,8 @@ a {
 	height: 10rem;
 }
 
-.commento-footer, .commento-anonymous-checkbox-container, .commento-markdown-button, .commento-sort-policy-buttons,
-.commento-comments, .commento-timeago:before, .commento-options {
+.commento-footer, .commento-anonymous-checkbox-container, .commento-markdown-button,
+.commento-sort-policy-buttons, .commento-timeago:before, .commento-options {
 	display: none;
 }
 
