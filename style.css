@@ -17,6 +17,7 @@
 	font-size: 0.8rem;
 	text-align: center;
 	font-style: italic;
+	margin-top: 0px;
 }
 
 .readmore {
@@ -161,34 +162,28 @@ a {
 	color: #0066ff;
 }
 
-#commento-submit-button-root {
+.commento-markdown-button, .commento-anonymous-checkbox-container, .commento-logo-container, .commento-score,
+ .commento-option-upvote, .commento-option-downvote, .commento-avatar, .commento-footer, {
+	visibility: hidden;
+}
+
+#commento-sort-policy-score-desc {
+	visibility: hidden;
+}
+
+.commento-submit-button {
 	background: #ffffff;
-	color: black;
-	text-transform: none;
+	float: left;
+}
+
+.commento-subtitle {
+	margin-left: auto;
 }
 
 .commento-button-margin {
-	height: 10rem;
+	height: 5rem;
 }
 
-.commento-footer, .commento-anonymous-checkbox-container, .commento-markdown-button,
-.commento-sort-policy-buttons, .commento-timeago:before, .commento-options {
-	display: none;
-}
-
-.commento-comments {
-	padding-bottom: 1.5rem;
-}
-
-.commento-avatar, .commento-score {
-	display: none !important;
-}
-
-.commento-name, .commento-subtitle {
-	margin-left: 0px !important;
-}
-
-::-webkit-input-placeholder {
-  text-transform: lowercase;
-  font-size: 1rem !important;
+.commento-option-button commento-option-reply {
+	color: black;
 }
