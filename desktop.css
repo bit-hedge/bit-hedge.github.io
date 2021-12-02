@@ -1,0 +1,19 @@
+body {
+					font-family: Ubuntu Mono;
+					font-size: small;
+					background-color: #FDFDFD;
+				}
+				table {
+					font-size: small;
+				}
+				a, p {
+					font-size: 1.1em;
+					color: #000000;
+				}
+				.headline {
+					font-family: Trebuchet MS, Arial;
+					font-size: xx-large;
+				}
+				.highlight {
+					color: #FF9900;
+				}
