@@ -1,160 +1,292 @@
 <html>
-	<head>
-		<title> Bithedge News</title>
+	<div id="desktop" style="display:none">
+		<head>
+			<title> Bithedge News </title>		
+			<!--font-->
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Source+Code+Pro:wght@200&family=Ubuntu+Mono&display=swap" rel="stylesheet">
 		
-		<!--font-->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Source+Code+Pro:wght@200&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+			<!--google analytics-->
+			<link rel="shortcut icon" href="favicon (2).ico">
+		</head>
 		
-		<style>
-			body {
-				margin: 32px;
-				/*background-color: #041318;*/
-				font-family: Ubuntu Mono !important;
-				font-size: medium !important;
-				/*color: #ffffff;
-				opacity: 99%;*/
-				background-color: #FDFDFD;
-			}
-			table {
-				font-size: medium;
-			}
-			a, p {
-				font-size: 3em;
-				/*color: #ffffff;
-				opacity: 99%;*/
-				color: #000000;
-			}
-			.headline {
-				font-family: Trebuchet MS, Arial;
-				font-size: 5em;
-			}
-			.highlight {
-				color: #FF9900;
-			}
-		</style>
-		
-		<!--google analytics-->
-		<link rel="shortcut icon" href="favicon (2).ico">
-	</head>
-	
-	<body>
-		
-		<!--top left-->
-		<a> bithedge news</a><br>
-		<a> last update: 1:54pm est 11/28/21</a><br><br><br><br><br><br>
-		<a href="google.com" target="_blank"> Bitcoin trades tick for tick with S&P500 during Wednesday's NY session...</a><br><br>
-		<a href="google.com" target="_blank" class="highlight"> Top crypto CEOs including SBF, Brian Brooks to testify before Congress</a><br>
-		
-		<br><br>
-		
-		<!--chart and headlines-->
-		<center>
-			<div class="tradingview-widget-container">
-				<div id="tradingview_da958"></div>
-				<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-				<script type="text/javascript">
-					new TradingView.MediumWidget({
-					"symbols": [["S&P500", "SKILLING:SPX500|1M"],
-								["Eth/Btc", "COINBASE:ETHBTC|1M"],
-								["Bitcoin Spot", "COINBASE:BTCUSD|1M"],
-								["Ethereum Spot", "COINBASE:ETHUSD|1M"]],
-					"chartOnly": true,
-					"width": "85%",
-					"locale": "en",
-					"colorTheme": "light",
-					"gridLineColor": "#ffffff",
-					"fontColor": "#000000",
-					"isTransparent": true,
-					"autosize": false,
-					"showFloatingTooltip": true,
-					"showVolume": false,
-					"scalePosition": "right",
-					"scaleMode": "Normal",
-					"fontFamily": "Trebuchet MS",
-					"noTimeScale": false,
-					"chartType": "area",
-					"lineColor": "#4F74D9",
-					"bottomColor": "rgba(41, 98, 255, 0)",
-					"topColor": "rgba(41, 98, 255, 0.1)",
-					"container_id": "tradingview_da958"
-					});
-				</script>
-			</div>	
+		<body>
+			<br>
+			
+			<!--top left-->
+			<a style="float: right"> bithedge news - last update: 1:54pm est 12/2/21 </a>
+			<a href="google.com" target="_blank"> Bitcoin trades tick for tick with S&P500 during Wednesday's NY session... </a><br>
+			<a href="google.com" target="_blank" class="highlight"> Top crypto CEOs including SBF, Brian Brooks to testify before Congress</a><br>
 			
 			<br><br>
-			<a href="google.com" target="_blank" class="headline"> Stocks Weigh On Crypto</a><br><br><br><br>
-			<a href="google.com" target="_blank" class="headline"> Eth/Btc Retreats From 6 Month Highs</a><br><br><br><br>
-		</center>
+			
+			<!--chart and headlines-->
+			<center>
+				<div class="tradingview-widget-container">
+				<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+					<div id="tradingview_da959"></div>
+					<script type="text/javascript">
+						new TradingView.MediumWidget({
+						"symbols": [["S&P500", "SKILLING:SPX500|1M"],
+									["Eth/Btc", "COINBASE:ETHBTC|1M"],
+									["Bitcoin Spot", "COINBASE:BTCUSD|1M"],
+									["Ethereum Spot", "COINBASE:ETHUSD|1M"]],
+						"chartOnly": true,
+						"width": "450",
+						"height": "300",
+						"locale": "en",
+						"colorTheme": "light",
+						"gridLineColor": "#ffffff",
+						"fontColor": "#000000",
+						"isTransparent": true,
+						"autosize": false,
+						"showFloatingTooltip": true,
+						"showVolume": false,
+						"scalePosition": "right",
+						"scaleMode": "Normal",
+						"fontFamily": "Trebuchet MS",
+						"noTimeScale": false,
+						"chartType": "area",
+						"lineColor": "#4F74D9",
+						"bottomColor": "rgba(41, 98, 255, 0)",
+						"topColor": "rgba(41, 98, 255, 0.1)",
+						"container_id": "tradingview_da958"
+						});
+					</script>
+				</div>	
+				
+				<br>
+				<a href="google.com" class="headline"> Stocks Weigh On Crypto </a><br>
+				<a href="google.com" class="headline"> Eth/Btc Retreats From 6 Month Highs </a><br>
+			</center>
+			
+			<!--table-->
+			<br><br>
+			<table cellpadding="3" width="100%">
+				<tr>
+				<td align="left" valign="top" width="33%">
+					<a href="google.com" target="_blank" class="highlight"> *GOLDMAN SACHS, OTHER WALL STREET BANKS EXPLORING BITCOIN-BACKED LOANS</a><br><br>
+					
+					<hr><br>
+					
+					<a href="google.com" target="_blank"> Markets reverse sharply on Wednesday</a><br><br>
+					<a href="google.com" target="_blank"> Omicron in US... </a><br><br>
+					<a href="google.com" target="_blank"> Fed discussing accelerated taper </a><br><br>
+					
+					<hr><br>
+					<a href="google.com" target="_blank"> Still little data on severity of new strain</a><br><br>
+					<a> Since the initial panic about Omicron, new information has been sparse</a><br><br>
+					
+					<hr><br>
+					<a href="google.com" target="_blank" class="highlight"> Uniswap frontend collecting user data?</a><br><br>
+					
+					<hr><br>
+					<a href="google.com" target="_blank"> Bitcoin DeFi protocol BadgerDAO hacked</a><br><br>
+					
+					<hr><br>
+					<a> bithedge.news </a><br>
+					<a> since 2021 </a>
+				</td>
+				
+				<td align="center" valign="top" width="3"><div style="width:1px;background-color:#C0C0C0;margin-left:1px;margin-right:1px;height:400px;"></div></td>
+				<td align="left" valign="top" width="33%">
+				
+					<a href="google.com" target="_blank"> Fidelity launches spot Bitcoin ETF in Canada</a><br><br>
+					
+					<hr><br>
+					<a href="google.com" target="_blank" class="highlight"> Dorsey steps down as Twitter CEO, renames Square to 'Block'</a><br><br>
+					<a href="google.com" target="_blank"> Payments company is hot source of demand for Bitcoin</a><br><br>
+					
+					<hr><br>
+					<a href="google.com" target="_blank"> Tips in Ethereum coming soon to Twitter?</a><br><br>
+					<a> Speculation of a less Bitcoin-specific approach to crypto at the company going forward</a><br><br>
+					
+					<hr><br>
+					<a href="google.com" target="_blank"> India flip-flops on crypto stance again </a><br><br>
+					
+					<hr><br>
+					<a href="google.com" target="_blank"> Grayscale launches Solana trust</a><br><br>
+					
+					<hr><br>
+					<a href="google.com" target="_blank"> Bancor floats counter to impermanent loss</a><br><br>
+					
+					<hr><br>
+					<a href="google.com" target="_blank"> FTX NFT platform going live...</a><br><br>
+					
+				</td>
+				
+				<td align="center" valign="top" width="3"><div style="width:1px;background-color:#C0C0C0;margin-left:1px;margin-right:1px;height:400px;"></div></td>
+				<td align="left" valign="top" width="33%">
+					<a href="google.com" target="_blank"> Delphi proposes 'best in class' tokenomics model</a><br><br>
+					
+					<hr><br>
+					<a href="google.com" target="_blank"> Ethereum Denver fumbles</a><br><br>
+					
+					<hr><br>
+					<a href="google.com" target="_blank"> S2F model questioned</a><br><br>
+					<a> The popular model has been increasingly under fire lately </a>
+					
+					<hr><br>
+					<a href="google.com" target="_blank"><i> “Over the last week, for every $1 in fees, the Bitcoin network has transferred $95,142 while Ethereum has transferred $139...” </i></a><br><br>
+							
+					<hr><br>
+					<a href="google.com" target="_blank"> Facebook drops long-standing ban on crypto ads</a><br><br>
+							
+					<hr>
+					<a><b> Exclusives: </b></a><br><br>
+					<a href="google.com" target="_blank"> BITO two weeks later; Grayscale’s foil? </a><br><br>
+					<a href="google.com" target="_blank"> U.S investors appear to be nearly the sole driver behind crypto’s bull run </a><br><br>
+					<a href="google.com" target="_blank"> Ethereum is the sum of its developers </a><br><br>
+					<a href="google.com" target="_blank"> Crypto market ‘dollarization’: a new secular tailwind </a><br><br>
+					<a href="google.com" target="_blank"> Bitcoin's new exchange (day)traded fund </a><br><br>
+				</td>
+				
+				</tr>
+			</table>
+		</body>
+	</div>
+	
+	<div id="mobile" style="display:none">
+		<head>
+			<title> Bithedge News</title>
+			
+			<!--font-->
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Source+Code+Pro:wght@200&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+			
+			<!--google analytics-->
+			<link rel="shortcut icon" href="favicon (2).ico">
+		</head>
 		
-		<!--table-->
-		<table cellpadding="3" width="100%">
-			<tr>
-			<td align="left" valign="top" width="99%">
-				<a href="google.com" target="_blank" class="highlight"> *GOLDMAN SACHS, OTHER WALL STREET BANKS EXPLORING BITCOIN-BACKED LOANS</a><br><br>
+		<body>
 			
-				<br><hr><br><br>
+			<!--top left-->
+			<a> bithedge news</a><br>
+			<a> last update: 1:54pm est 11/28/21</a><br><br><br><br><br><br>
+			<a href="google.com" target="_blank"> Bitcoin trades tick for tick with S&P500 during Wednesday's NY session...</a><br><br>
+			<a href="google.com" target="_blank" class="highlight"> Top crypto CEOs including SBF, Brian Brooks to testify before Congress</a><br>
 			
-				<a href="google.com" target="_blank"> Markets reverse sharply on Wednesday</a><br><br>
-				<a href="google.com" target="_blank"> Omicron in US... </a><br><br>
-				<a href="google.com" target="_blank"> Fed discussing accelerated taper </a><br><br>
+			<br><br>
+			
+			<!--chart and headlines-->
+			<center>
+				<div class="tradingview-widget-container">
+					<div id="tradingview_da958"></div>
+					<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+					<script type="text/javascript">
+						new TradingView.MediumWidget({
+						"symbols": [["S&P500", "SKILLING:SPX500|1M"],
+									["Eth/Btc", "COINBASE:ETHBTC|1M"],
+									["Bitcoin Spot", "COINBASE:BTCUSD|1M"],
+									["Ethereum Spot", "COINBASE:ETHUSD|1M"]],
+						"chartOnly": true,
+						"width": "85%",
+						"locale": "en",
+						"colorTheme": "light",
+						"gridLineColor": "#ffffff",
+						"fontColor": "#000000",
+						"isTransparent": true,
+						"autosize": false,
+						"showFloatingTooltip": true,
+						"showVolume": false,
+						"scalePosition": "right",
+						"scaleMode": "Normal",
+						"fontFamily": "Trebuchet MS",
+						"noTimeScale": false,
+						"chartType": "area",
+						"lineColor": "#4F74D9",
+						"bottomColor": "rgba(41, 98, 255, 0)",
+						"topColor": "rgba(41, 98, 255, 0.1)",
+						"container_id": "tradingview_da958"
+						});
+					</script>
+				</div>	
 				
-				<br><hr><br><br>
-				<a href="google.com" target="_blank"> Fidelity launches spot Bitcoin ETF in Canada</a><br><br>
+				<br><br>
+				<a href="google.com" target="_blank" class="headline"> Stocks Weigh On Crypto</a><br><br><br><br>
+				<a href="google.com" target="_blank" class="headline"> Eth/Btc Retreats From 6 Month Highs</a><br><br><br><br>
+			</center>
+			
+			<!--table-->
+			<table cellpadding="3" width="100%">
+				<tr>
+				<td align="left" valign="top" width="99%">
+					<a href="google.com" target="_blank" class="highlight"> *GOLDMAN SACHS, OTHER WALL STREET BANKS EXPLORING BITCOIN-BACKED LOANS</a><br><br>
 				
-				<br><hr><br><br>
-				<a href="google.com" target="_blank"> Delphi proposes 'best in class' tokenomics model</a><br><br>
+					<br><hr><br><br>
 				
-				<br><hr><br><br>
-				<a href="google.com" target="_blank"> Still little data on severity of new strain</a><br><br>
-				<a> Since the initial panic about Omicron, new information has been sparse</a><br><br>
-				
-				<br><hr><br><br>
-				<a href="google.com" target="_blank" class="highlight"> Dorsey steps down as Twitter CEO, renames Square to 'Block'</a><br><br>
-				<a href="google.com" target="_blank"> Payments company is hot source of demand for Bitcoin</a><br><br>
-				
-				<br><hr><br><br>
-				<a href="google.com" target="_blank"> Tips in Ethereum coming soon to Twitter?</a><br><br>
-				<a> Speculation of a less Bitcoin-specific approach to crypto at the company going forward</a><br><br>
-				
-				<br><hr><br><br>
-				<a href="google.com" target="_blank" class="highlight"> Uniswap frontend collecting user data?</a><br><br>
-				
-				<br><hr><br><br>
-				<a href="google.com" target="_blank"> Ethereum Denver fumbles</a><br><br>
-				
-				<br><hr><br><br>
-				<a href="google.com" target="_blank"> BadgerDAO hacked</a><br><br>
-				
-				<br><hr><br><br>
-				<a href="google.com" target="_blank"> India flip-flops on crypto stance again </a><br><br>
-				
-				<br><hr><br><br>
-				<a href="google.com" target="_blank"> S2F model questioned</a><br><br>
-				<a> The popular model has been increasingly under fire lately</a>
-				
-				<br><hr><br><br>
-				<a href="google.com" target="_blank"> FTX NFT platform going live</a><br><br>
-				
-				<br><hr><br><br>
-				<a href="google.com" target="_blank"> Grayscale launches Solana trust</a><br><br>
-				
-				<br><hr><br><br>
-				<a href="google.com" target="_blank"><i> “Over the last week, for every $1 in fees, the Bitcoin network has transferred $95,142 while Ethereum has transferred $139...” </i></a><br><br>
-				
-				<br><hr><br><br>
-				<a href="google.com" target="_blank"> Bancor floats counter to impermanent loss</a><br><br>
-				
-				<br><hr><br><br>
-				<a href="google.com" target="_blank"> Facebook drops long-standing ban on crypto ads</a><br><br>
-				
-				<br><hr><br><br>
-				<a> bithedge.news </a><br>
-				<a> since 2021 </a>
-				
-			</td>
-			</tr>
-		</table>
-	</body>
+					<a href="google.com" target="_blank"> Markets reverse sharply on Wednesday</a><br><br>
+					<a href="google.com" target="_blank"> Omicron in US... </a><br><br>
+					<a href="google.com" target="_blank"> Fed discussing accelerated taper </a><br><br>
+					
+					<br><hr><br><br>
+					<a href="google.com" target="_blank"> Fidelity launches spot Bitcoin ETF in Canada</a><br><br>
+					
+					<br><hr><br><br>
+					<a href="google.com" target="_blank"> Delphi proposes 'best in class' tokenomics model</a><br><br>
+					
+					<br><hr><br><br>
+					<a href="google.com" target="_blank"> Still little data on severity of new strain</a><br><br>
+					<a> Since the initial panic about Omicron, new information has been sparse</a><br><br>
+					
+					<br><hr><br><br>
+					<a href="google.com" target="_blank" class="highlight"> Dorsey steps down as Twitter CEO, renames Square to 'Block'</a><br><br>
+					<a href="google.com" target="_blank"> Payments company is hot source of demand for Bitcoin</a><br><br>
+					
+					<br><hr><br><br>
+					<a href="google.com" target="_blank"> Tips in Ethereum coming soon to Twitter?</a><br><br>
+					<a> Speculation of a less Bitcoin-specific approach to crypto at the company going forward</a><br><br>
+					
+					<br><hr><br><br>
+					<a href="google.com" target="_blank" class="highlight"> Uniswap frontend collecting user data?</a><br><br>
+					
+					<br><hr><br><br>
+					<a href="google.com" target="_blank"> Ethereum Denver fumbles</a><br><br>
+					
+					<br><hr><br><br>
+					<a href="google.com" target="_blank"> BadgerDAO hacked</a><br><br>
+					
+					<br><hr><br><br>
+					<a href="google.com" target="_blank"> India flip-flops on crypto stance again </a><br><br>
+					
+					<br><hr><br><br>
+					<a href="google.com" target="_blank"> S2F model questioned</a><br><br>
+					<a> The popular model has been increasingly under fire lately</a>
+					
+					<br><hr><br><br>
+					<a href="google.com" target="_blank"> FTX NFT platform going live</a><br><br>
+					
+					<br><hr><br><br>
+					<a href="google.com" target="_blank"> Grayscale launches Solana trust</a><br><br>
+					
+					<br><hr><br><br>
+					<a href="google.com" target="_blank"><i> “Over the last week, for every $1 in fees, the Bitcoin network has transferred $95,142 while Ethereum has transferred $139...” </i></a><br><br>
+					
+					<br><hr><br><br>
+					<a href="google.com" target="_blank"> Bancor floats counter to impermanent loss</a><br><br>
+					
+					<br><hr><br><br>
+					<a href="google.com" target="_blank"> Facebook drops long-standing ban on crypto ads</a><br><br>
+					
+					<br><hr><br><br>
+					<a> bithedge.news </a><br>
+					<a> since 2021 </a>
+					
+				</td>
+				</tr>
+			</table>
+		</body>
+	</div>
+	
+	<script>
+		if(/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+			document.head.innerHTML += "<link rel='stylesheet' href='mobile.css'/>"
+			document.getElementById('mobile').style.display = 'initial'
+		} else {
+			document.head.innerHTML += "<link rel='stylesheet' href='desktop.css'/>"
+			document.getElementById('desktop').style.display = 'initial'
+		}
+	</script>
 </html>
