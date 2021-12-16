@@ -1,174 +1,135 @@
 <html>
 	<head>
-		<title> Bithedge News </title>
 		
-		<!--font-->
+		<!-- font !-->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Source+Code+Pro:wght@200&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:wght@400&display=swap" rel="stylesheet">
+
+		<title> bithedge </title>
+		<script src="script.js"></script>
+		<link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" href="favicon.ico">
+		
+		<!-- count site views - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-WY3QVN1WSJ"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-WY3QVN1WSJ');
+		</script>
 		
 		<style>
-			body {
-				/*background-color: #041318;
-				opacity: 99%;*/
-				font-family: Ubuntu Mono;
-				font-size: small;
-				background-color: #FDFDFD;
-			}
-			table {
-				font-size: small;
-			}
-			a, p {
-				font-size: 1.1em;
-				/*color: #ffffff;
-				opacity: 99%;*/
-				color: #000000;
-			}
-			.headline {
-				font-family: Trebuchet MS, Arial;
-				font-size: xx-large;
-			}
-			.highlight {
-				color: #FF9900;
-			}
+		head {
+			font-family: Ubuntu;
+		}
+		
+		.header {
+			font-size: 24px;
+			text-align: center;
+			display: block;
+			text-decoration: none;
+			color: black;
+			margin-top: 15px;
+		}
+		
+		.nav {
+			text-align: center;
+			display: block;
+			margin-top: 2px;
+		}
+		
+		.lower-nav {
+			margin-right: 10px;
+		}
+		
+		table {
+			width: 95%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		td {
+			padding-top: 1px;
+			padding-bottom: 15px;
+			vertical-align: top;
+			text-align: left;
+			width: 25%;
+		}
+		
+		.title {
+			font-size: 18px;
+			text-decoration: none;
+			color: black;
+		}
+
+		.title:hover {
+			color: black;
+		}
+		
+		.readmore {
+			font-size: 11px;
+			margin-top: 15px;
+			display: inline-block;
+			font-style: italic;
+		}
+		
+		.subtitle {
+			font-size: 11px;
+			margin-top: 0px;
+			font-style: italic;
+		}
+		
+		.text {
+			font-size: 13px;
+		}
+	
 		</style>
 		
-		<!--google analytics-->
-		<link rel="shortcut icon" href="favicon (2).ico">
+		<a class="infolder" style="position: absolute"> < Back </a>
+		<a class="header"> bithedge.news </a>
 	</head>
 	
-	<body>
-		<br>
-		
-		<!--top left-->
-		<a style="float: right"> bithedge news - last update: 1:54pm est 12/2/21 </a>
-		<a href="google.com" target="_blank"> Bitcoin trades tick for tick with S&P500 during Wednesday's NY session... </a><br>
-		<a href="google.com" target="_blank" class="highlight"> Top crypto CEOs including SBF, Brian Brooks to testify before Congress</a><br>
-		
-		<br><br>
-		
-		<!--chart and headlines-->
-		<center>
-			<div class="tradingview-widget-container">
-				<div id="tradingview_da958"></div>
-				<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-				<script type="text/javascript">
-					new TradingView.MediumWidget({
-					"symbols": [["S&P500", "SKILLING:SPX500|1M"],
-								["Eth/Btc", "COINBASE:ETHBTC|1M"],
-								["Bitcoin Spot", "COINBASE:BTCUSD|1M"],
-								["Ethereum Spot", "COINBASE:ETHUSD|1M"]],
-					"chartOnly": true,
-					"width": "450",
-					"height": "300",
-					"locale": "en",
-					"colorTheme": "light",
-					"gridLineColor": "#ffffff",
-					"fontColor": "#000000",
-					"isTransparent": true,
-					"autosize": false,
-					"showFloatingTooltip": true,
-					"showVolume": false,
-					"scalePosition": "right",
-					"scaleMode": "Normal",
-					"fontFamily": "Trebuchet MS",
-					"noTimeScale": false,
-					"chartType": "area",
-					"lineColor": "#4F74D9",
-					"bottomColor": "rgba(41, 98, 255, 0)",
-					"topColor": "rgba(41, 98, 255, 0.1)",
-					"container_id": "tradingview_da958"
-					});
-				</script>
-			</div>	
-			
-			<br>
-			<a href="google.com" class="headline"> Stocks Weigh On Crypto </a><br>
-			<a href="google.com" class="headline"> Eth/Btc Retreats From 6 Month Highs </a><br>
-		</center>
-		
-		<!--table-->
-		<br><br>
-		<table cellpadding="3" width="100%">
-			<tr>
-			<td align="left" valign="top" width="33%">
-				<a href="google.com" target="_blank" class="highlight"> *GOLDMAN SACHS, OTHER WALL STREET BANKS EXPLORING BITCOIN-BACKED LOANS</a><br><br>
-				
-				<hr><br>
-				
-				<a href="google.com" target="_blank"> Markets reverse sharply on Wednesday</a><br><br>
-				<a href="google.com" target="_blank"> Omicron in US... </a><br><br>
-				<a href="google.com" target="_blank"> Fed discussing accelerated taper </a><br><br>
-				
-				<hr><br>
-				<a href="google.com" target="_blank"> Still little data on severity of new strain</a><br><br>
-				<a> Since the initial panic about Omicron, new information has been sparse</a><br><br>
-				
-				<hr><br>
-				<a href="google.com" target="_blank" class="highlight"> Uniswap frontend collecting user data?</a><br><br>
-				
-				<hr><br>
-				<a href="google.com" target="_blank"> BadgerDAO hacked</a><br><br>
-				
-				<hr><br>
-				<a href="google.com" target="_blank"> FTX NFT platform going live...</a><br><br>
-				
-				<hr><br>
-				<a> bithedge.news </a><br>
-				<a> since 2021 </a>
-			</td>
-			
-			<td align="center" valign="top" width="3"><div style="width:1px;background-color:#C0C0C0;margin-left:1px;margin-right:1px;height:400px;"></div></td>
-			<td align="left" valign="top" width="33%">
-			
-				<a href="google.com" target="_blank"> Fidelity launches spot Bitcoin ETF in Canada</a><br><br>
-				
-				<hr><br>
-				<a href="google.com" target="_blank" class="highlight"> Dorsey steps down as Twitter CEO, renames Square to 'Block'</a><br><br>
-				<a href="google.com" target="_blank"> Payments company is hot source of demand for Bitcoin</a><br><br>
-				
-				<hr><br>
-				<a href="google.com" target="_blank"> Tips in Ethereum coming soon to Twitter?</a><br><br>
-				<a> Speculation of a less Bitcoin-specific approach to crypto at the company going forward</a><br><br>
-				
-				<hr><br>
-				<a href="google.com" target="_blank"> India flip-flops on crypto stance again </a><br><br>
-				
-				<hr><br>
-				<a href="google.com" target="_blank"> Grayscale launches Solana trust</a><br><br>
-				
-				<hr><br>
-				<a href="google.com" target="_blank"> Bancor floats counter to impermanent loss</a><br><br>
-				
-			</td>
-			
-			<td align="center" valign="top" width="3"><div style="width:1px;background-color:#C0C0C0;margin-left:1px;margin-right:1px;height:400px;"></div></td>
-			<td align="left" valign="top" width="33%">
-				<a href="google.com" target="_blank"> Delphi proposes 'best in class' tokenomics model</a><br><br>
-				
-				<hr><br>
-				<a href="google.com" target="_blank"> Ethereum Denver fumbles</a><br><br>
-				
-				<hr><br>
-				<a href="google.com" target="_blank"> S2F model questioned</a><br><br>
-				<a> The popular model has been increasingly under fire lately </a>
-				
-				<hr><br>
-				<a href="google.com" target="_blank"><i> “Over the last week, for every $1 in fees, the Bitcoin network has transferred $95,142 while Ethereum has transferred $139...” </i></a><br><br>
-						
-				<hr><br>
-				<a href="google.com" target="_blank"> Facebook drops long-standing ban on crypto ads</a><br><br>
-						
-				<hr>
-				<a><b> Exclusives: </b></a><br><br>
-				<a href="google.com" target="_blank"> BITO two weeks later; Grayscale’s foil? </a><br><br>
-				<a href="google.com" target="_blank"> U.S investors appear to be nearly the sole driver behind crypto’s bull run </a><br><br>
-				<a href="google.com" target="_blank"> Ethereum is the sum of its developers </a><br><br>
-				<a href="google.com" target="_blank"> Crypto market ‘dollarization’: a new secular tailwind </a><br><br>
-				<a href="google.com" target="_blank"> Bitcoin's new exchange (day)traded fund </a><br><br>
-			</td>
-			
-			</tr>
-		</table>
+	<body>				
+		<div class="nav">
+		<a class="infolder" href="https://twitter.com/bit_hedge" target="_blank" style="color:blue"\> Bithedge Twitter </a>
+		<a class="infolder" href="mailto:bithedgemail@gmail.com"> bithedgemail@gmail.com </a>			
+		</div>
+				<div id="container" style="padding-top: 10px; width: 60%; margin-left: auto; margin-right: auto">
+					<a class="title"> U.S Investors Behind Crypto’s Bull Run </a> 
+					<p class="subtitle"> October 30th, 7:17pm nyc time, 2021. </p>
+					<hr>
+					<p class="text">
+						Perhaps not satisfied with jawboning just the S&P500 well above its peers (5Y performance: spx +120%, msci world ex-us +43%), it’s become apparent that US investors have been nothing short of the <i>pillar</i> of crypto’s recent rise from relative obscurity to a $2.7T asset class.
+					</p>
+					<p class="text" style="margin-bottom: 0px;">
+						Nowhere is this more obvious than in Ethereum, the <a href="https://www.zerohedge.com/markets/amazon-information-goldman-initiaties-crypto-sees-ethereum-overtaking-bitcoin" target="_blank">‘Amazon of information’</a>, where performance during the U.S session since the start of 2020 stacks up at <b><i>2700%</b></i>, vs. the European session at 492% and finally the Asian session with a return of <i>28%</i>, barely more than <i>one hundredth</i> of the performance had during U.S hours.  
+					</p>
+					<img src="img/eth-us.png"/>
+					<p class="text" style="margin-top: 0px">
+						Despite ongoing regulations being a worldwide development, a constant barrage of what appeared to be China full-out ‘banning’ crypto quite literally dozens of times and finally <a href="https://www.reuters.com/world/china/china-central-bank-vows-crackdown-cryptocurrency-trading-2021-09-24/" target="_blank">appearing to commit with conviction</a> (don’t rule out more headlines) is the immediate suspect behind the glaring underperformance from the Asian session. 
+					</p>
+					<p class="text" style="margin-bottom: 0px;">
+						Less stunning but just as compelling is the breakdown for the top dog Bitcoin, where once again America drives, Europe rides, and Asia disappoints:
+					</p>
+					<img src="img/btc-us.png"/>
+					<p class="excerpt" style="margin-top: 0px">
+						Due to crypto trading 24/7 and the varying open and close times of major stock exchanges, 8:00am to 6:00pm was used to classify session hours in NYC, Brussels, and Beijing, as this is the smallest window possible that captures all market hours in each region. This same window is used on weekends as it is also conceivably the lowest common denominator for the period of local time during which most financial activities take place on <u>any</u> day.
+					</p>
+					<p class="text">
+						And while Asia’s shortfall can be reasonably attributed to China’s never-ending crackdown, the bifurcation between the U.S and Europe is less easily explained, although one could speculate has been helped by differing <a href="https://www.cnbc.com/2021/08/24/half-of-young-investors-invested-stimulus-money-cnbc-survey-finds.html" target="_blank">fiscal programs</a>, <a href="https://today.yougov.com/topics/technology/articles-reports/2021/06/10/cryptocurrency-poll-data-yougov" target="_blank">cultural attitudes</a>, and <a href="https://www.forbes.com/sites/anthonytellez/2021/08/19/blackrock-joins-fidelity-and-vanguard-as-a-bitcoin-mining-investor/" target="_blank">institutional responses</a> between the two regions as a few among many factors.
+					</p>
+					<p class="text">
+						The one thing this massive divergence makes clear is that despite what some U.S incumbents may think, the market appears to have voted with a resounding <b>yes</b> to crypto more so there than anywhere, and doesn’t appear to be having any second thoughts...
+					</p>
+					<img src="img/yellen.jpg" class="boarded" style="margin-bottom: 8%"/>
+				</div>
+			</div>
+		</div>
+		<script>
+			document.getElementById('container').style.width = '100%';
+		</script>
 	</body>
 </html>
