@@ -1,11 +1,12 @@
 
 .heading {
-	font-size: 2.5rem;
+	font-size: 32px;
 	line-height: 3rem;
 	text-align: center;
 	display: block;
 	text-decoration: none;
 	color: black;
+	margin-bottom: 1%;
 }
 
 .heading:hover {
@@ -19,45 +20,22 @@
 	font-style: italic;
 }
 
-.readmore {
-	font-size: 0.8rem;
-	margin-top: 1rem;
-	display: inline-block;
-	margin-bottom: 1rem;
-	font-style: italic;
-}
-
 body {
-	background-color: #eff0e0;
-	font-family: Cambria;
+	background-color: #fdfdfd;
+	font-family: Ubuntu;
 }
 
-.title {
-	font-size: 1.75rem;
-	line-height: 1.75rem;
-	padding-top: 1rem;
-	display: inline-block;
-	margin-bottom: 0.5rem;
-	text-decoration: none;
-	color: black;
-}
 
-.title:hover {
-	color: black;
-}
 
 p {
 	line-height: 1rem;
 }
 
-.subtitle {
-	font-size: 0.8rem;
-	line-height: 0.8rem;
-	font-style: italic;
-}
+
 
 .text {
 	line-height: 1.2rem;
+	font-size: 13px;
 }
 
 .sideheader {
@@ -74,12 +52,12 @@ p {
 }
 
 .col-2 { 
-	background-color: #d9d9d9;
+	background-color: #fcfcfc;
 	height: 100%;
 }
 
 .col-lg {
-	background-color: #d9d9d9;
+	background-color: #fcfcfc;
 	margin-right: 1rem;
 	margin-left: 1rem;
 }
@@ -130,7 +108,7 @@ p {
 }
 
 .card {
-	background-color: #d9d9d9;
+	background-color: #fcfcfc;
 }
 
 .infolder {
