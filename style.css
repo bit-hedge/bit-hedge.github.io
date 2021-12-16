@@ -65,7 +65,7 @@
 }	
 
 .excerpt {
-	font-size: 24px;
+	font-size: 11px;
 	text-align: center;
 	font-style: italic;
 }
@@ -84,7 +84,6 @@ body {
 	padding-left: 0.5rem;
 	padding-bottom: 0.5rem;
 	color: black;
-	font-size: 36px;
 	margin-left: 2%;
 }
 
@@ -108,14 +107,6 @@ a {
 	color: #0066ff;
 }
 		
-.header {
-	font-size: 96px;
-	text-align: center;
-	display: block;
-	text-decoration: none;
-	color: black;
-	padding-top: 5%;
-}
 
 .nav {
 	text-align: center;
