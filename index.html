@@ -1,19 +1,14 @@
 <html>
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!-- bootstrap css!-->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-
-		<!-- bootstrap js!-->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		
+		<!-- font !-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:wght@400&display=swap" rel="stylesheet">
+
 		<title> bithedge </title>
 		<script src="script.js"></script>
-		<link rel="stylesheet" href="style.css">
+		<link id="style" rel="stylesheet" href="style.css">
 		<link rel="shortcut icon" href="favicon.ico">
 		
 		<!-- count site views - Google Analytics -->
@@ -25,186 +20,117 @@
 
 			gtag('config', 'G-WY3QVN1WSJ');
 		</script>
+		
+		<script>
+			style.setAttribute('href', 'style-mobile.css');
+		</script>
+		
 	</head>
 	
 	<body>
-		<div class="container" id="container">
+		<a class="header"> bithedge.news </a>
+		<div class="nav">
+		<a class="infolder" href="https://twitter.com/bit_hedge" target="_blank" style="color:blue"\> Bithedge Twitter </a>
+		<a class="infolder" href="mailto:bithedgemail@gmail.com"> bithedgemail@gmail.com </a>			
+		</div>
 		
-			<a class="heading" href="https://bit-hedge.github.io"> bithedge </a>
-			<p class="excerpt">reading is a conversation between you and the author</p>
-			<div class="row justify-content-center">
-				<div class="col-2 border border-dark d-none d-lg-block">
-					<p class="sideheader"> Posts </p>
-					<div id="accordion">
-						<div class="card">
-							
-							<a class="folder" data-toggle="collapse" href="#collapseOne" onclick="flipArrow(this)">
-								v 2021
-							</a>
-
-							<div id="collapseOne" class="collapse hide show">
-								<a class="infolder" href="https://bit-hedge.github.io/bitcoin-welcome"> Bitcoin - Welcome To The Big Leagues </a>
-								<a class="infolder" href="https://bit-hedge.github.io/eth-dev"> Ethereum Is The Sum Of Its Developers </a>
-								<a class="infolder" href="https://bit-hedge.github.io/bito-gbtc"> BITO Two Weeks Later; Grayscale’s Foil? </a>
-								<a class="infolder" href="https://bit-hedge.github.io/us-bull-run"> U.S Investors Appear To Be Nearly The Sole Driver Behind Crypto’s Bull Run </a>
-								<a class="infolder" href="https://bit-hedge.github.io/dollarization"\> Crypto Market ‘Dollarization’: A New Secular Tailwind </a>
-								<a class="infolder" href="https://bit-hedge.github.io/bitcoins-new-fund"\> Bitcoin's New Exchange (Day)Traded Fund </a>
-							</div>
-						</div>
-					</div>		
-							
-					<p class="sideheader"> About </p>
-					<p class="infolder" style="margin-bottom: 0rem;"> The <i>best</i> quality original analysis and information on crypto and markets. </p>
-					
-					<p class="sideheader"> Links </p>
-					<a class="infolder" href="https://twitter.com/bit_hedge" target="_blank"\> Bithedge Twitter </a><br>
-					<a class="infolder" href="https://glassnode.com/" target="_blank"\> Glassnode </a><br>
-					<a class="infolder" href="https://www.zerohedge.com/" target="_blank"\> ZeroHedge </a><br>
-					<a class="infolder" href="https://themarketear.com/" target="_blank"\> The Market Ear </a>
-					
-					<p class="sideheader"> Contact </p>
-					<a class="infolder" href="https://twitter.com/bit_hedge" target="_blank"\> Direct Message </a><br>
-					<a class="infolder" href="mailto:bithedgemail@gmail.com"> bithedgemail@gmail.com </a>			
-					
-				</div>
-				
-				<div class="col-lg border border-dark d-sm-block d-md-none">		
-					<div id="dropdown">
-						<div class="card">
-							<a class="sidebar" data-toggle="collapse" href="#collapse" onclick="flipArrow(this)">
-								> Menu
-							</a>
-							<div id="collapse" class="collapse hide">
-								<p class="sideheader"> Posts </p>
-								<div id="accordion">
-									<div class="card">
-							
-										<a class="folder" data-toggle="collapse" href="#collapseOneMobile" onclick="flipArrow(this)">
-											v 2021
-										</a>
-
-										<div id="collapseOneMobile" class="collapse hide show">
-											<a class="infolder" href="https://bit-hedge.github.io/bitcoin-welcome"> Bitcoin - Welcome To The Big Leagues </a>
-											<a class="infolder" href="https://bit-hedge.github.io/eth-dev"> Ethereum Is The Sum Of Its Developers </a>
-											<a class="infolder" href="https://bit-hedge.github.io/bito-gbtc"> BITO Two Weeks Later; Grayscale’s Foil? </a>
-											<a class="infolder" href="https://bit-hedge.github.io/us-bull-run"> U.S Investors Appear To Be Nearly The Sole Driver Behind Crypto’s Bull Run </a>
-											<a class="infolder" href="https://bit-hedge.github.io/dollarization"\> Crypto Market ‘Dollarization’: A New Secular Tailwind </a>
-											<a class="infolder" href="https://bit-hedge.github.io/bitcoins-new-fund"\> Bitcoin's New Exchange (Day)Traded Fund </a>
-										</div>
-									</div>
-								</div>		
-								
-								<p class="sideheader"> About </p>
-								<p class="infolder" style="margin-bottom: 0rem;"> The <i>best</i> quality original analysis and information on crypto and markets. </p>
-								
-								<p class="sideheader"> Links </p>
-								<a class="infolder" href="https://twitter.com/bit_hedge" target="_blank"\> Bithedge Twitter </a><br>
-								<a class="infolder" href="https://glassnode.com/" target="_blank"\> Glassnode </a><br>
-								<a class="infolder" href="https://www.zerohedge.com/" target="_blank"\> ZeroHedge </a><br>
-								<a class="infolder" href="https://themarketear.com/" target="_blank"\> The Market Ear </a>
-								
-								<p class="sideheader"> Contact </p>
-								<a class="infolder" href="https://twitter.com/bit_hedge" target="_blank"\> Direct Message </a><br>
-								<a class="infolder" href="mailto:bithedgemail@gmail.com"> bithedgemail@gmail.com </a>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<br>
-				
-				<div class="col-lg border border-dark" style="height: 100%">
-					<a class="title" href="https://bit-hedge.github.io/bitcoin-welcome"> Bitcoin - Welcome To The Big Leagues </a> 
+		<table cellpadding="25">
+		<tr>
+		<td>
+		<a class="title" href="https://bit-hedge.github.io/bitcoin-welcome"> Crypto Set For $7Bn New Year's Eve OpEx </a> 
 					<p class="subtitle"> December 4th, 11:45am nyc time, 2021. </p>
 					<hr>
 					<p class="text">
-						In light of the past two weeks, can anybody seriously say right now that they think Bitcoin will end the year higher than where it is currently if the S&P 500 doesn't?
+						Unprecedented size and holiday-level liquidity...
 					</p>
 					<img src="img/btc_es.png" class="boarded"/>
-					<a href="https://bit-hedge.github.io/bitcoin-welcome" class="readmore"> Read more ></a>
-				</div>
-			</div>
-			
-			<br>
-			
-			<div class="row justify-content-center">
-				<div class="col-2 border border-dark d-none d-lg-block" style="visibility:hidden"></div>
-				<div class="col-lg border border-dark">
-					<a class="title" href="https://bit-hedge.github.io/eth-dev"> Ethereum Is The Sum Of Its Developers </a> 
-					<p class="subtitle"> November 21st, 5:42pm nyc time, 2021. </p>
+					<a href="https://bit-hedge.github.io/bitcoin-welcome" class="readmore" style="color:black"> Read more ></a>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		<a class="title" href="https://bit-hedge.github.io/bitcoin-welcome"> Bitcoin - Welcome To The Big Leagues </a> 
+					<p class="subtitle"> December 4th, 11:45am nyc time, 2021. </p>
 					<hr>
-					<p class="text" style="margin-bottom: 0px;">
+					<p class="text">
+						In light of the past two weeks, can anybody seriously say that they think Bitcoin will end the year higher than where it is currently if the S&P 500 doesn't?
+					</p>
+					<img src="img/btc_es.png" class="boarded"/>
+					<a href="https://bit-hedge.github.io/bitcoin-welcome" class="readmore" style="color:black"> Read more ></a>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		<a class="title" href="https://bit-hedge.github.io/bitcoin-welcome"> Ethereum Is The Sum Of Its Developers </a> 
+					<p class="subtitle"> December 4th, 11:45am nyc time, 2021. </p>
+					<hr>
+					<p class="text">
 						If Ethereum’s ‘killer app’ has yet to be made, many are scrambling to make it.
 					</p>
 					<img src="img/devs.png"/>
-					<a href="https://bit-hedge.github.io/eth-dev" class="readmore" style="margin-top: 0px;"> Read more ></a>
-				</div>
-			</div>
-			
-			<br>
-			
-			<div class="row justify-content-center">
-				<div class="col-2 border border-dark d-none d-lg-block" style="visibility:hidden"></div>
-				<div class="col-lg border border-dark"">
-					<a class="title" href="https://bit-hedge.github.io/bito-gbtc"> BITO Two Weeks Later; Grayscale’s Foil? </a> 
-					<p class="subtitle"> November 5th, 7:20pm nyc time, 2021. </p>
+					<a href="https://bit-hedge.github.io/bitcoin-welcome" class="readmore" style="color:black"> Read more ></a>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		<a class="title" href="https://bit-hedge.github.io/bitcoin-welcome"> BITO Two Weeks Later; Grayscale’s Foil? </a> 
+					<p class="subtitle"> December 4th, 11:45am nyc time, 2021. </p>
 					<hr>
 					<p class="text">
 						BITO's buried lead is that it's put the heat on the flagship product of what WSJ dubs crypto's Standard Oil...
 					</p>
 					<img src="img/gbtc-btc-bito.png" class="boarded"/>
-					<a href="https://bit-hedge.github.io/bito-gbtc" class="readmore"> Read more ></a>
-				</div>
-			</div>
-				
-			<br>
-			
-			<div class="row justify-content-center">
-				<div class="col-2 border border-dark d-none d-lg-block" style="visibility:hidden"></div>
-				<div class="col-lg border border-dark">
-					<a class="title" href="https://bit-hedge.github.io/us-bull-run"> U.S Investors Appear To Be Nearly The Sole Driver Behind Crypto’s Bull Run </a> 
-					<p class="subtitle"> October 30th, 7:17pm nyc time, 2021. </p>
+					<a href="https://bit-hedge.github.io/bitcoin-welcome" class="readmore" style="color:black"> Read more ></a>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		<a class="title" href="https://bit-hedge.github.io/bitcoin-welcome"> U.S Investors Behind Crypto’s Bull Run </a> 
+					<p class="subtitle"> December 4th, 11:45am nyc time, 2021. </p>
 					<hr>
-					<p class="text" style="margin-bottom: 0px;">
-						It’s become apparent that US investors have been nothing short of the <i>pillar</i> of crypto’s recent rise from relative obscurity to a $2.7T asset class.
+					<p class="text">
+						It’s become apparent that US investors have been the pillar of crypto’s recent rise from relative obscurity to a $2.7T asset class.
 					</p>
 					<img src="img/eth-us.png"/>
-					<a href="https://bit-hedge.github.io/us-bull-run" class="readmore"  style="margin-top: 0px;"> Read more ></a>
-				</div>
-			</div>
-			
-			<br>
-			
-			<div class="row justify-content-center">
-				<div class="col-2 border border-dark d-none d-lg-block" style="visibility:hidden"></div>
-				<div class="col-lg border border-dark">
-					<a class="title" href="https://bit-hedge.github.io/dollarization"> Crypto Market ‘Dollarization’: A New Secular Tailwind </a> 
-					<p class="subtitle"> October 23rd, 4:55pm nyc time, 2021. </p>
+					<a href="https://bit-hedge.github.io/bitcoin-welcome" class="readmore" style="color:black"> Read more ></a>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		<a class="title" href="https://bit-hedge.github.io/bitcoin-welcome"> Crypto Market ‘Dollarization’ </a> 
+					<p class="subtitle"> December 4th, 11:45am nyc time, 2021. </p>
 					<hr>
 					<p class="text">
 						The result was (and is) an inherently convex ecosystem...
 					</p>
 					<img src="img/stables.png" class="boarded"/>
-					<a href="https://bit-hedge.github.io/dollarization" class="readmore"> Read more ></a>
-				</div>
-			</div>
-			
-			<br>
-			
-			<div class="row justify-content-center">
-				<div class="col-2 border border-dark d-none d-lg-block" style="visibility:hidden"></div>
-				<div class="col-lg border border-dark">
-					<a class="title" href="https://bit-hedge.github.io/bitcoins-new-fund"> Bitcoin's New Exchange (Day)Traded Fund </a> 
-					<p class="subtitle"> October 17th, 6:43pm nyc time, 2021. </p>
+					<a href="https://bit-hedge.github.io/bitcoin-welcome" class="readmore" style="color:black"> Read more ></a>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		<a class="title" href="https://bit-hedge.github.io/bitcoin-welcome"> Bitcoin's New Exchange (Day)Traded Fund </a> 
+					<p class="subtitle"> December 4th, 11:45am nyc time, 2021. </p>
 					<hr>
 					<p class="text">
-						An investment in such a product at the start of 2018 would have lost <i>almost a quarter of its value against Bitcoin since</i>.
+						An investment in such a product at the start of 2018 would have lost <i>almost a quarter of its value against Bitcoin since.</i>
 					</p>
 					<img src="img/oct.png" class="boarded"/>
-					<a href="https://bit-hedge.github.io/bitcoins-new-fund" class="readmore"> Read more ></a>
-				</div>
-			</div>
-			
-		</div>
+					<a href="https://bit-hedge.github.io/bitcoin-welcome" class="readmore" style="color:black"> Read more ></a>
+		</td>
+		</tr>
+		<tr>
+		<td style="text-align: right">
+		<a class="infolder lower-nav" href="https://glassnode.com/" target="_blank"\> Glassnode </a>
+		<a class="infolder lower-nav" href="https://www.zerohedge.com/" target="_blank"\> ZeroHedge </a><br>
+		<a class="infolder lower-nav" href="https://materialindicators.com/" target="_blank"\> Material Indicators </a>
+		<a class="infolder lower-nav" href="https://themarketear.com/" target="_blank"\> The Market Ear </a>
+		</td>
+		</tr>
+
+
+		</table>	
+
 	</body>
+	
 </html>
