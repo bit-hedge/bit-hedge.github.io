@@ -73,11 +73,10 @@
 body {
 	background-color: #fdfdfd;
 	font-family: Ubuntu;
-	padding-bottom: 1%;
 }
 
 .text {
-	font-size: 13px;
+	font-size: 14px;
 }
 
 .infolder {
