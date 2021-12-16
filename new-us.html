@@ -8,7 +8,7 @@
 
 		<title> bithedge </title>
 		<script src="script.js"></script>
-		<link rel="stylesheet" href="style.css">
+		<link id="style" rel="stylesheet" href="style.css">
 		<link rel="shortcut icon" href="favicon.ico">
 		
 		<!-- count site views - Google Analytics -->
@@ -21,89 +21,15 @@
 			gtag('config', 'G-WY3QVN1WSJ');
 		</script>
 		
-		<style>
-		head {
-			font-family: Ubuntu;
-		}
+		<script>
+			style.setAttribute('href', 'style-mobile.css');
+		</script>
 		
-		.header {
-			font-size: 96px;
-			text-align: center;
-			display: block;
-			text-decoration: none;
-			color: black;
-			padding-top: 5%;
-		}
-		
-		.nav {
-			text-align: center;
-			display: block;
-			margin-top: 2px;
-			margin-bottom: 5%;
-		}
-		
-		.lower-nav {
-			margin-right: 1%;
-		}
-		
-		table {
-			width: 95%;
-			margin-left: auto;
-			margin-right: auto;
-		}
-		
-		td {
-			padding-top: 1%;
-			padding-bottom: 10%;
-			vertical-align: top;
-			text-align: left;
-		}
-		
-		.title {
-			font-size: 60px;
-			text-decoration: none;
-			color: black;
-		}
-
-		.title:hover {
-			color: black;
-		}
-		
-		.readmore {
-			font-size: 36px;
-			margin-top: 2%;
-			display: inline-block;
-			font-style: italic;
-		}
-		
-		.subtitle {
-			font-size: 24px;
-			margin-top: 0px;
-			font-style: italic;
-		}
-		
-		.text {
-			font-size: 36px;
-		}
-		
-		.boarded {
-			max-width: 90%;
-		}
-		
-		.infolder {
-			font-size: 36px;
-			margin-left: 2%;
-		}
-		.excerpt {
-			font-size: 24px;
-		}
-	
-		</style>
-		
-		<a class="header"> bithedge.news </a>
 	</head>
 	
 	<body>				
+				<a class="header"> bithedge.news </a>
+
 		<div class="nav">
 		<a class="infolder" href="https://twitter.com/bit_hedge" target="_blank" style="color:blue"\> Bithedge Twitter </a>
 		<a class="infolder" href="mailto:bithedgemail@gmail.com"> bithedgemail@gmail.com </a>			
@@ -140,7 +66,7 @@
 			</div>
 		</div>
 		<script>
-			document.getElementById('container').style.width = '80%';
+			document.getElementById('container').style.width = '90%';
 		</script>
 	</body>
 </html>
