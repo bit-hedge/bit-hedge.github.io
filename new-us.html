@@ -21,10 +21,6 @@
 			gtag('config', 'G-WY3QVN1WSJ');
 		</script>
 		
-		<script>
-			style.setAttribute('href', 'style-mobile.css');
-		</script>
-		
 	</head>
 	
 	<body>				
@@ -66,7 +62,10 @@
 			</div>
 		</div>
 		<script>
-			document.getElementById('container').style.width = '90%';
+			if(/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+      			style.setAttribute('href', 'style-mobile.css');
+				document.getElementById('container').style.width = '90%';
+			}
 		</script>
 	</body>
 </html>
