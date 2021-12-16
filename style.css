@@ -33,7 +33,7 @@
 		}
 		
 		.title {
-			font-size: 18px;
+			font-size: 24px;
 			text-decoration: none;
 			color: black;
 		}
@@ -65,7 +65,7 @@
 }	
 
 .excerpt {
-	font-size: 12px;
+	font-size: 13px;
 	text-align: center;
 	font-style: italic;
 }
@@ -73,6 +73,7 @@
 body {
 	background-color: #fdfdfd;
 	font-family: Ubuntu;
+	padding-bottom: 1%;
 }
 
 .text {
@@ -84,7 +85,7 @@ body {
 	padding-left: 0.5rem;
 	padding-bottom: 0.5rem;
 	color: black;
-	font-size: 13px;
+	font-size: 14px;
 }
 
 img {
