@@ -1,0 +1,118 @@
+
+.header:hover {
+	color : black;
+	text-decoration: none;
+}	
+
+.excerpt {
+	font-size: 24px;
+	text-align: center;
+	font-style: italic;
+}
+
+body {
+	background-color: #fdfdfd;
+	font-family: Ubuntu;
+}
+
+.text {
+	font-size: 13px;
+}
+
+.infolder {
+	display: inline-block;
+	padding-left: 0.5rem;
+	padding-bottom: 0.5rem;
+	color: black;
+	font-size: 36px;
+	margin-left: 2%;
+}
+
+img {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+.boarded {
+	border: 1px solid black;
+	max-width: 90%;
+}
+
+ul {
+	padding-left: 5rem;
+}
+
+a {
+	text-decoration: underline;
+	color: #0066ff;
+}
+		
+.header {
+	font-size: 96px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding-top: 5%;
+}
+
+.nav {
+	text-align: center;
+	display: block;
+	margin-top: 2px;
+	margin-bottom: 5%;
+}
+
+.lower-nav {
+	margin-right: 1%;
+}
+
+table {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td {
+	padding-top: 1%;
+	padding-bottom: 10%;
+	vertical-align: top;
+	text-align: left;
+}
+
+.title {
+	font-size: 60px;
+	text-decoration: none;
+	color: black;
+}
+
+.title:hover {
+	color: black;
+}
+
+.readmore {
+	font-size: 36px;
+	margin-top: 2%;
+	display: inline-block;
+	font-style: italic;
+}
+
+.subtitle {
+	font-size: 24px;
+	margin-top: 0px;
+	font-style: italic;
+}
+
+.text {
+	font-size: 36px;
+}
+
+.boarded {
+	max-width: 90%;
+}
+
+.infolder {
+	font-size: 36px;
+	margin-left: 2%;
+}
